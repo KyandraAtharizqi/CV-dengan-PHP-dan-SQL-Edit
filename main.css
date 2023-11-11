@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Aldrich';
+  src: url(font/Aldrich-Regular.ttf);
+}
+ @font-face {
+  font-family: 'Bombard';
+  src: url(font/BOMBARD_.ttf);
+ }
+
+ @font-face {
+  font-family: 'VHS';
+  src: url(font/VCR_OSD_MONO_1.001.ttf);
+ }
+
+
+
+img{
+  float: right;
+  width: 225px;
+  height: 300px;
+  margin-left: 15px;
+  border-color: aqua;
+  border-style: double;
+  
+}
+.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.biru{
+  background-color: black;
+  border-color: aqua;
+  border-style: double
+  ;
+}
+
+.card{
+  background-color: black;
+  border-color: aqua;
+  border-style: double;
+  color: white;
+
+}
+
+.navbar{
+  font-family: 'VHS';
+  color: white;
+}
+
+.navbar .navar-brand{
+  color: red;
+}
+
+
+
+
+
+body {
+  background-color: black;
+  font-family: 'aldrich';
+}
+
+.btn{
+  background-color: #000000;
+  border-color: red;
+  border-style: double;
+  color:red;
+}
+
+.btn:hover{
+  background-color: red;
+  border-color: red;
+  border-style: double;
+  color:black;
+  box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.289);
+}
+
+.form-control{
+  background-color: #000000;
+  border-color: white;
+  border-style: double;
+}
+
+.form-control:focus{
+  background-color: #000000;
+  border-color:aqua;
+  border-style: double;
+  color: white;
+}
+
+a {
+  background-color: #000000;
+  border-color: red;
+  border-style: solid;
+  color:red;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  background-color: red;
+  border-color: red;
+  border-style: solid;
+  color:black;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.289);
+  
+}
